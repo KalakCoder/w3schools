@@ -1,0 +1,48 @@
+
+ /* video section */
+ .watch-video{
+    background-color: rgb(53, 53, 54);
+    color: aliceblue;
+    overflow: hidden;
+ }
+ h2{
+    text-align: center;
+   }
+   .video-group{
+    width: 30%;
+    margin: auto;
+   }
+   .video-group video{
+    width: 500px;
+   }
+   .after-section video{
+    padding: 1rem;
+    width: 33%;
+    
+}
+.last-section{
+    padding: 3px;
+    background-color: aliceblue;
+    font-family: 'Bad Script', cursive;
+}
+   @media screen and (max-width:768px) {
+    .video-group,.after-section{
+        width: 50%;
+        height: auto;
+    }
+   }
+   @media screen and (max-width:480px) {
+    .video-group,.after-section{
+        width: 100%;
+        height: auto;
+    }
+    .watch-video{
+        width: 100%;
+    }
+    .after-section video{
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+   }
+   /* video section */

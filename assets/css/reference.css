@@ -1,0 +1,46 @@
+.html-code-f3{
+    background-color: rgb(42, 41, 41);
+    padding: 10px;
+    height: 94vh;
+    color: aliceblue;
+}
+.html-code{
+    float: left;
+    width: 25%;
+}
+.html-code a{
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 1rem;
+}
+.html-code a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+h4{
+    font-size: 28px;
+    padding: 1rem;
+}
+.htiml-code-f3::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width:768px) {
+    .html-code{
+        width: 50%;
+        height: auto;
+    }
+    
+}
+@media screen and (max-width:480px) {
+    .html-code{
+        width: 100%;
+        height: auto;
+    }
+    .html-code-f3{
+        height: 515vh;
+    }
+    
+}

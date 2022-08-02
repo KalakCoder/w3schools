@@ -1,0 +1,53 @@
+/* tutorials section */
+.wrapper-section-f3{
+    background-color: rgb(26, 23, 23);
+    height: 105vh;
+    padding: 10px;
+    color: white;
+}
+.side-section{
+    text-align: center;
+    float: left;
+    width: 25%;
+
+}
+h2{
+    font-size: 20px;
+}
+.heading{
+    margin-left: 7rem;
+}
+.btn-f3-section{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    padding: 1rem;
+}
+.btn-f3-section:hover{
+    background-color: aliceblue;
+    color: black;
+    text-align: left;
+}
+.main-section::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+@media screen and (max-width:767px) {
+    .side-section{
+        width: 50%;
+        height: auto;
+    }
+    
+}
+@media screen and (max-width:480px) {
+    .side-section{
+        width: 100%;
+        height: auto;
+    }
+    .wrapper-section-f3{
+        height: 160rem;;
+    }
+}
+/* tutorials section */
